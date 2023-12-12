@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+    background-image: url("https://static.videezy.com/system/resources/thumbnails/000/054/583/original/Weather-news-intro-loop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    color: wheat;
+    text-align: center;
+}
+
+
+input[type="text"] {
+    height: 50px;
+    width: 600px;
+    background: #e7e7e7;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 10px;
+    margin-top: 40px;
+    margin-left: 20%;
+}
+
+input[type="submit"] {
+    height: 50px;
+    width: 100px;
+    background: #e7e7e7;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+}
+
+
+
+
+/* media queries */
+@media only screen and (max-width:768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: "Nanito", sans-serif;
+        background-image: url("https://static.videezy.com/system/resources/thumbnails/000/054/583/original/Weather-news-intro-loop.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 108vh;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    h1 {
+        color: wheat;
+        text-align: center;
+        margin-top: 12px;
+    }
+
+    input[type="text"] {
+        height: 100px;
+        width: 360px;
+        background: #e7e7e7;
+        font-family: "Nunito", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        border: none;
+        border-radius: 2px;
+        padding: 10px 10px;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-top: 12px;
+    }
+
+    input[type="submit"] {
+        height: 50px;
+        width: 100px;
+        background: darkblue;
+        color: wheat;
+        font-family: "Nunito", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        border: none;
+        border-radius: 2px;
+        margin-top: 12px;
+        margin-left: 12px;
+        font-size: 22px;
+        padding-left: 40%;
+        padding-right: 60%;
+        text-align: center;
+    }
+
+}
+
+/* media queries 2 */
+
+@media only screen and (max-width:1024px) and (min-width:767px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: "Nanito", sans-serif;
+        background-image: url("https://static.videezy.com/system/resources/thumbnails/000/054/583/original/Weather-news-intro-loop.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 180%;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    h1 {
+        color: wheat;
+        text-align: center;
+        margin-top: 12px;
+    }
+
+    input[type="text"] {
+        height: 100px;
+        width: 320px;
+        background: #e7e7e7;
+        font-family: "Nunito", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        border: none;
+        border-radius: 2px;
+        padding: 10px 10px;
+        margin-top: 12px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    input[type="submit"] {
+        height: 50px;
+        width: 200px;
+        background: darkblue;
+        color: wheat;
+        font-family: "Nunito", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        border: none;
+        border-radius: 2px;
+        margin-top: 12px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+}
